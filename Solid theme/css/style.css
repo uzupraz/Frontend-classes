@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+.navbar-inverse{
+	background:#384452;
+	border-radius:0px;
+	border:0px;
+}
+.navbar-header, .collapse{
+	padding:10px 0px;
+}
+.navbar-header .navbar-brand{
+	color:#fff;
+	font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>.active>a:hover{
+	background:transparent;
+	color:#428bca;
+}
+.navbar-nav{
+	font-weight: 700;
+    font-size: 12px;
+	font-family: 'Lato', sans-serif;
+	text-transform:uppercase;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color:#fff;
+}
+.dropdown-menu > li > a {
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+}
+.dropdown-menu{
+	background:#384452;
+	text-transform: uppercase;
+}
+.headerwrap{
+	margin-top:70px;
+	background:#00b3fe;
+	padding-top:30px;
+}
+.headerwrap img{
+	margin:auto;
+}
+.row-centered{
+	padding-top:90px;
+}
+.fa{
+	font-family:FontAwesome;
+	font-size:60px;
+	padding:10px;
+	color:#00b3fe;
+}
+.btn-theme{
+	color: #fff;
+    background-color: #384452;
+    border-color: #384452;
+    margin: 4px;
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		.container{
+			display:grid;
+			grid-row-gap:40px;
+			background:#6D9BE1;
+			grid-template-columns:auto auto auto auto;
+			grid-row:50px;
+			padding:10px;
+		}
+		.box{
+			background:#FF0004;
+			border:solid 1px #000;
+			padding:20px;
+			text-align:center;
+		}
+		.two ,.nine{
+			grid-column-start:2;
+			grid-column-end:4;
+		}
+		.end{
+			grid-row-start:3;
+			grid-row-end:10;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="box">Logo</div>
+		<div class="box two"></div>
+		<div class="box">Contact</div>
+		<div class="box">Home</div>
+		<div class="box">About</div>
+		<div class="box">Services</div>
+		<div class="box">Contact Us</div>
+		<div class="box end">Left</div>
+		<div class="box nine end">Middle</div>
+		<div class="box end">End</div>
+	</div>
+</body>
+</html>

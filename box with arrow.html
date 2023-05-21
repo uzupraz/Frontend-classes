@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		#box{
+			width:200px;
+			height:200px;
+			background:#E40307;
+			position:relative;
+			border-radius:20px;
+		}
+		#box:after{
+			content:'';
+			position:absolute;
+			border-bottom:10px transparent solid;
+			border-top:10px #E40307 solid;
+			border-right:10px transparent solid;
+			border-left:10px transparent solid;
+			top:200px;
+			left:80px;
+			width:1px;
+		}
+		#box:before{
+			content:'';
+			position:absolute;
+			border-bottom:10px transparent solid;
+			border-left:10px #E40307 solid;
+			border-top:10px transparent solid;
+			border-right:10px transparent solid;
+			top:80px;
+			left:200px;
+			width:1px;
+		}
+		#text{
+			font-size:30px;
+			color:#000EB0;
+			position:relative;
+		}
+		#text:before{
+			position:absolute;
+			content:'';
+			border:2px solid black;
+			top:40px;
+			width:150px;
+		}
+		#text:after{
+			position:absolute;
+			content:'X';
+			top:25px;
+			width:150px;
+			left:65px;
+			color:black;
+			font-size:30px;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="box"></div>
+	<br><br>
+	<div id="text">Hello Nepal</div>
+</body>
+</html>

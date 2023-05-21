@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0px;
+	margin:0px;
+}
+.container{
+	width:1440px;
+	padding:0px;
+}
+.navbar{
+	height:80px;
+	background:#f7fdfe;
+	font-family:"Museo Sans 700";
+	color:#82868f;
+}
+.logo{
+	float:left;
+	margin-left:240px;
+	font-size:30px;
+	padding-top:20px;
+}
+.labels{
+	float:right;
+	margin-right:240px;
+	padding-top:25px;
+	text-transform:uppercase;
+	font-size:12.83pt;
+}
+.spacing{
+	padding-left:30px;
+	display:inline;
+}
+.button{
+	height:30px;
+	width:125px;
+	background-color:#0ebfdd;
+	color:#fff;
+	border-radius:20px;
+	text-align:center;
+	display:inline-block;
+	vertical-align:middle;
+	padding-top:10px;
+}
+.intro{
+	position:relative;
+	background:url(background.jpg);
+	height:600px;
+	color:#fff;
+}
+.introtext{
+	position:absolute;
+	top:400px;
+	left:560px;
+	font-size:44pt;
+	font-family:"Avenir Heavy";
+}
+.star{
+	font-family:fontawesome;
+	font-size:20px;
+}detaildetail

@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing:border-box;
+}
+body{
+	background:#82D959;
+	margin:0px;
+	padding:0px;
+}
+.container{
+	width:980px;
+	margin:auto;
+	background:#FFFFFF;
+}
+header{
+	margin:0px;
+	padding:0px
+}
+#logo{
+	float:left;
+}
+#contact{
+	float:right;
+}
+.clear{
+	clear:both;
+}
+.navbar{
+	padding:0px;
+	margin-top:-15px;
+	width:980px;
+	background-color:#800000;
+	min-height:45px;
+}
+ul{
+	list-style:none;
+}
+li{
+	float:left;
+	padding:10px;
+	font-size:20px;
+	color:#98B7EE;
+	margin:0px;
+}
+a{
+	text-decoration:none;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+
+}
+@media(max-width:420px)
+{
+	.container{
+		width:420px;
+	}
+	.navbar, #logo, #contact{
+		float:none;
+		text-align:center;
+		width:100%
+	}
+}
